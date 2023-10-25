@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/HomePage/HomePage.dart';
 import 'package:flutter_app_project/apps/modules/WelcomePage/WelcomePage.dart';
+import 'package:flutter_app_project/apps/modules/WishlistPage/WishlistPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const WelcomePage(),
+      home: const WishlistPage(),
     );
   }
 }
