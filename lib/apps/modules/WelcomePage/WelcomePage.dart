@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/HomePage/HomePage.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:get/get.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -41,7 +43,9 @@ class WelcomePage extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12))),
-                        onPressed: null,
+                        onPressed: () {
+                          Get.off(HomePage());
+                        },
                         child: Text("Continue",
                             style: GoogleFonts.nunitoSans(
                                 fontSize: 20, fontWeight: FontWeight.w700))),
