@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/LoginPage/LoginPage.dart';
 import 'package:flutter_app_project/apps/modules/WelcomePage/WelcomePage.dart';
 import 'package:get/get.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       // Use GetMaterialApp instead of MaterialApp
-      home: WelcomePage(),
+      home: LoginPage(),
     );
   }
 }
