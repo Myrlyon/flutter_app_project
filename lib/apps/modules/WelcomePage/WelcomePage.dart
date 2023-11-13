@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_project/apps/modules/HomePage/HomePage.dart';
+import 'package:flutter_app_project/apps/modules/LoginPage/LoginPage.dart';
 import 'package:flutter_app_project/apps/modules/widgets/BottomNavbar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
@@ -45,7 +45,7 @@ class WelcomePage extends StatelessWidget {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12))),
                         onPressed: () {
-                          Get.off(BottomNavbar());
+                          Get.off(LoginPage());
                         },
                         child: Text("Continue",
                             style: GoogleFonts.nunitoSans(
