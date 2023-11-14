@@ -25,8 +25,8 @@ class LoginPageController extends GetxController {
     final response = await http.post(
       Uri.parse(baseUrl),
       body: {
-        'Username': cEmail!.text,
-        'Password': cPass!.text,
+        'email': cEmail!.text,
+        'password': cPass!.text,
       },
     );
     try {
