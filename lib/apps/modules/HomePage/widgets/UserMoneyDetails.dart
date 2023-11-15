@@ -17,7 +17,7 @@ class _UserMoneyDetailsState extends State<UserMoneyDetails> {
       //   borderRadius: BorderRadius.all(Radius.circular(2)),
       // ),
       child: Container(
-        margin: EdgeInsets.all(10),
+        margin: EdgeInsets.all(0),
         child: Row(
           children: [
             Expanded(
