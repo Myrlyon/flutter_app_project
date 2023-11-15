@@ -28,8 +28,8 @@ class _BottomNavbarState extends State<BottomNavbar> {
         },
         items: const [
           BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.home)),
-          BottomNavigationBarItem(label: 'Menu', icon: Icon(Icons.menu)),
-          BottomNavigationBarItem(label: 'Profile', icon: Icon(Icons.person)),
+          BottomNavigationBarItem(label: 'Official', icon: Icon(Icons.store)),
+          BottomNavigationBarItem(label: 'Wishlist', icon: Icon(Icons.receipt)),
         ],
       ),
     );
