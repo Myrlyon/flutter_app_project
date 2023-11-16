@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/HomePage.dart';
 import 'package:flutter_app_project/apps/modules/OfficialPage/OfficialPage.dart';
+import 'package:flutter_app_project/apps/modules/TransactionPage/TransactionPage.dart';
 import 'package:flutter_app_project/apps/modules/WishlistPage/WishlistPage.dart';
 
 class BottomNavbar extends StatefulWidget {
@@ -30,7 +31,7 @@ class _BottomNavbarState extends State<BottomNavbar>
       HomePage(),
       OfficialPage(),
       WishlistPage(),
-      WishlistPage(),
+      TransactionPage(),
     ];
 
     return Scaffold(
