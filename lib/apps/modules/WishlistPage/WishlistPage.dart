@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WishlistPage extends StatefulWidget {
@@ -12,7 +13,10 @@ class _WishlistPageState extends State<WishlistPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        flexibleSpace: MainAppBar(),
+        elevation: 0,
+      ),
       bottomNavigationBar: null,
       body: SingleChildScrollView(
         child: Container(
