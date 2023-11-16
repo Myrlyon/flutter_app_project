@@ -46,14 +46,30 @@ class _BottomNavbarState extends State<BottomNavbar>
       onTap: navigationTapped,
       // iconSize: 28,
       items: [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
         BottomNavigationBarItem(
             icon: Icon(
-              Icons.explore,
+              Icons.home,
+              size: 22,
+            ),
+            label: 'Home'),
+        BottomNavigationBarItem(
+            icon: Icon(
+              Icons.store_rounded,
+              size: 22,
             ),
             label: 'Official'),
-        BottomNavigationBarItem(icon: Icon(Icons.cloud), label: 'Wishlist'),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Transaction'),
+        BottomNavigationBarItem(
+            icon: Icon(
+              Icons.heart_broken_rounded,
+              size: 22,
+            ),
+            label: 'Wishlist'),
+        BottomNavigationBarItem(
+            icon: Icon(
+              Icons.receipt_rounded,
+              size: 22,
+            ),
+            label: 'Transaction'),
       ],
     );
   }
