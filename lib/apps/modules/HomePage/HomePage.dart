@@ -60,49 +60,65 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
         body: SingleChildScrollView(
+          physics: BouncingScrollPhysics(
+              decelerationRate: ScrollDecelerationRate.fast),
           child: Container(
-            margin: EdgeInsets.all(20),
             child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    Icon(Icons.location_on),
-                    Text("Sent to Kost Marlen Edzel Satriani")
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                UserMoneyDetails(),
-                SizedBox(
-                  height: 20,
-                ),
-                SlideImage(),
-                SizedBox(
-                  height: 20,
+              children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Column(
+                    children: [
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Icon(Icons.location_on),
+                          Text("Sent to Kost Marlen Edzel Satriani")
+                        ],
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      UserMoneyDetails(),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      SlideImage(),
+                      SizedBox(
+                        height: 20,
+                      ),
+                    ],
+                  ),
                 ),
                 Align(
                   alignment: Alignment.centerLeft,
                   child: CategoryScroll(),
                 ),
-                SizedBox(
-                  height: 30,
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "New Items check it out!",
-                    style: GoogleFonts.nunitoSans(
-                        fontSize: 20, fontWeight: FontWeight.bold),
+                Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 30,
+                      ),
+                      Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          "New Items check it out!",
+                          style: GoogleFonts.nunitoSans(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                    ],
                   ),
-                ),
-                SizedBox(
-                  height: 10,
                 ),
                 NewItems(),
                 SizedBox(
-                  height: 20,
+                  height: 200,
                 )
               ],
             ),

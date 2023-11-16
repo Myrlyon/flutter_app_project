@@ -11,6 +11,9 @@ class NewItems extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
+          SizedBox(
+            width: 20,
+          ),
           NewItemsItem("assets/ikan.jpg", "  Audiophile", "Earphone"),
           SizedBox(
             width: 20,
