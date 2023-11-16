@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget MainAppBar() {
+Widget MainAppBar(context) {
   return AppBar(
     title: const CupertinoSearchTextField(
       borderRadius: BorderRadius.all(Radius.circular(8)),
@@ -20,14 +20,18 @@ Widget MainAppBar() {
           Icons.notifications,
           color: Colors.grey,
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pop(context);
+        },
       ),
       IconButton(
         icon: const Icon(
           Icons.shopping_cart_rounded,
           color: Colors.grey,
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pop(context);
+        },
       ),
       IconButton(
         icon: const Icon(
@@ -35,7 +39,7 @@ Widget MainAppBar() {
           color: Colors.grey,
         ),
         onPressed: () {
-          // Navigator.pop(context);
+          Navigator.pop(context);
         },
       ),
     ],

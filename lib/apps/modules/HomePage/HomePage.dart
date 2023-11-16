@@ -16,10 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          flexibleSpace: MainAppBar(),
-          elevation: 0,
-        ),
+        appBar: AppBar(flexibleSpace: MainAppBar(context), elevation: 0),
         body: SingleChildScrollView(
           physics: BouncingScrollPhysics(
               decelerationRate: ScrollDecelerationRate.fast),

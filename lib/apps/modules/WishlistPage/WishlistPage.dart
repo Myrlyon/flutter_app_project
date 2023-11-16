@@ -13,11 +13,7 @@ class _WishlistPageState extends State<WishlistPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        flexibleSpace: MainAppBar(),
-        elevation: 0,
-      ),
-      bottomNavigationBar: null,
+      appBar: AppBar(flexibleSpace: MainAppBar(context), elevation: 0),
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.all(20),

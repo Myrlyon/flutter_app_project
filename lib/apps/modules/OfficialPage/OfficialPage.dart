@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 
 class OfficialPage extends StatefulWidget {
   const OfficialPage({super.key});
@@ -11,7 +12,7 @@ class _OfficialPageState extends State<OfficialPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(flexibleSpace: MainAppBar(context), elevation: 0),
       body: SingleChildScrollView(
         child: Container(
           child: Column(
