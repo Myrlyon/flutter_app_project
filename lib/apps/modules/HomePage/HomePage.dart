@@ -77,7 +77,10 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
-                NewItems(),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: NewItems(),
+                ),
                 SizedBox(
                   height: 200,
                 )
