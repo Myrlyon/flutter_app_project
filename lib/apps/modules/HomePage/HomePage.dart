@@ -5,7 +5,6 @@ import 'package:flutter_app_project/apps/modules/HomePage/widgets/SlideImage.dar
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/UserMoneyDetails.dart';
 import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter/cupertino.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
