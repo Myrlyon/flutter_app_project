@@ -1,11 +1,10 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/CategoryScroll.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/NewItems.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/SlideImage.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/UserMoneyDetails.dart';
+import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter/cupertino.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -18,46 +17,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const CupertinoSearchTextField(
-            borderRadius: BorderRadius.all(Radius.circular(8)),
-            autofocus: true,
-            prefixIcon: Icon(
-              Icons.search,
-              size: 18,
-            ),
-            placeholder: "Find any items",
-          ),
-          backgroundColor: Colors.white,
+          flexibleSpace: MainAppBar(),
           elevation: 0,
-          actions: [
-            IconButton(
-              icon: const Icon(
-                Icons.notifications,
-                color: Colors.grey,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-            IconButton(
-              icon: const Icon(
-                Icons.shopping_cart_rounded,
-                color: Colors.grey,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-            IconButton(
-              icon: const Icon(
-                Icons.format_list_bulleted_rounded,
-                color: Colors.grey,
-              ),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
-          ],
         ),
         body: SingleChildScrollView(
           physics: BouncingScrollPhysics(
