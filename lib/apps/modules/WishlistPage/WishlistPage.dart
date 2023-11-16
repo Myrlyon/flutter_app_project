@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
+import 'package:flutter_app_project/apps/modules/WishlistPage/Detail/DetailWishlistPage.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:get/get.dart';
 
 class WishlistPage extends StatefulWidget {
   const WishlistPage({Key? key}) : super(key: key);
@@ -13,25 +14,31 @@ class _WishlistPageState extends State<WishlistPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(flexibleSpace: MainAppBar(context), elevation: 0),
+      appBar: AppBar(),
+      bottomNavigationBar: null,
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.all(20),
           child: Column(
             children: [
-              Container(
-                width: 1000,
-                height: 200,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(10.0),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey,
-                      offset: Offset(0, 2),
-                      blurRadius: 4,
-                    ),
-                  ],
+              GestureDetector(
+                onTap: () {
+                  Get.to(DetailWishlistPage());
+                },
+                child: Container(
+                  width: 1000,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey,
+                        offset: Offset(0, 2),
+                        blurRadius: 4,
+                      ),
+                    ],
+                  ),
                 ),
               ),
               SizedBox(
@@ -118,3 +125,4 @@ class _WishlistPageState extends State<WishlistPage> {
     );
   }
 }
+
