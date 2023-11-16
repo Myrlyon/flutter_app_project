@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/CategoryScroll.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/NewItems.dart';
@@ -116,7 +115,10 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
-                NewItems(),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: NewItems(),
+                ),
                 SizedBox(
                   height: 200,
                 )

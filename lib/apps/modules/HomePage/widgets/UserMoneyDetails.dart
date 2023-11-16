@@ -17,13 +17,31 @@ class _UserMoneyDetailsState extends State<UserMoneyDetails> {
       //   borderRadius: BorderRadius.all(Radius.circular(2)),
       // ),
       child: Container(
-        margin: EdgeInsets.all(0),
         child: Row(
           children: [
-            Expanded(
-              flex: 1, // Left-aligned
+            UserMoneyItem(MainAxisAlignment.start, 6, "Rp0", '200 Coins'),
+            UserMoneyItem(
+                MainAxisAlignment.center, 6, "Try for 1", 'Subscribe'),
+            UserMoneyItem(MainAxisAlignment.end, 6, "Marlen", 'Silver'),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+Widget UserMoneyItem(MainAlignment, double ItemRadius, ItemLabel1, ItemLabel2) {
+  return Expanded(
+    flex: 1, // Left-aligned
+    child: Row(
+      mainAxisAlignment: MainAlignment,
+      children: [
+        InkWell(
+            borderRadius: BorderRadius.all(Radius.circular(ItemRadius)),
+            onTap: () => null,
+            child: Container(
+              padding: EdgeInsets.all(6),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(
                     Icons.monetization_on,
@@ -36,81 +54,20 @@ class _UserMoneyDetailsState extends State<UserMoneyDetails> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Rp0",
+                        ItemLabel1,
                         textAlign: TextAlign.start,
                         style: GoogleFonts.nunitoSans(),
                       ),
                       Text(
-                        "200 Coins",
+                        ItemLabel2,
                         style: GoogleFonts.nunitoSans(),
                       ),
                     ],
                   ),
                 ],
               ),
-            ),
-            Expanded(
-              flex: 1, // Center-aligned
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    Icons.label_important_outlined,
-                    size: 30,
-                  ),
-                  SizedBox(
-                    width: 5,
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Try for 1 Month",
-                        textAlign: TextAlign.start,
-                        style: GoogleFonts.nunitoSans(),
-                      ),
-                      Text(
-                        "Subscribe here!",
-                        style: GoogleFonts.nunitoSans(),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-            Expanded(
-              flex: 1, // Right-aligned
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Text(
-                        "Marlen",
-                        style: GoogleFonts.nunitoSans(),
-                        textAlign: TextAlign.end,
-                      ),
-                      Text(
-                        "Silver",
-                        style: GoogleFonts.nunitoSans(),
-                        textAlign: TextAlign.end,
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    width: 5,
-                  ),
-                  Icon(
-                    Icons.panorama_fisheye_outlined,
-                    size: 30,
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+            )),
+      ],
+    ),
+  );
 }

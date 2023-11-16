@@ -11,7 +11,7 @@ class SlideImage extends StatefulWidget {
 class _SlideImageState extends State<SlideImage> {
   @override
   Widget build(BuildContext context) {
-    List imageList = [
+    final List<Map<String, dynamic>> imageList = [
       {"id": 1, "image_path": 'assets/ikan.jpg'},
       {"id": 2, "image_path": 'assets/ikan2.jpg'},
       {"id": 3, "image_path": 'assets/ikan3.jpg'}
