@@ -26,13 +26,17 @@ class _DetailWishlistPageState extends State<DetailWishlistPage> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Detail Wishlist'),
+          title: Text('Detail Wishlist', style: TextStyle(color: Colors.black)),
+          iconTheme: IconThemeData(color: Colors.black),
+          backgroundColor: Colors.white,
         ),
         body: SingleChildScrollView(
-          padding: EdgeInsets.all(16.0),
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: List.generate(5, (index) => ItemDetail(
+            children: List.generate(
+              5,
+              (index) => ItemDetail(
                 isFavorited: isFavoritedList[index],
                 onFavoritePressed: () {
                   setState(() {
