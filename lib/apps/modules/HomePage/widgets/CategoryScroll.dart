@@ -24,27 +24,34 @@ class CategoryScroll extends StatelessWidget {
 
 Widget ClickBox(NamaInput, IconInput, double RadiusInput) {
   return Container(
-    width: 100,
-    height: 110,
-    child: Column(
-      children: [
-        Container(
-          padding: EdgeInsets.all(5),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(RadiusInput)),
-            color: Color.fromARGB(255, 228, 228, 228),
-          ),
-          child: Icon(
-            IconInput,
-            size: 55,
+      width: 100,
+      height: 140,
+      child: InkWell(
+        borderRadius: BorderRadius.all(Radius.circular(10)),
+        onTap: () => null,
+        hoverColor: Colors.transparent,
+        child: Container(
+          padding: EdgeInsets.only(top: 20),
+          child: Column(
+            children: [
+              Container(
+                padding: EdgeInsets.all(5),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(RadiusInput)),
+                  color: Color.fromARGB(255, 228, 228, 228),
+                ),
+                child: Icon(
+                  IconInput,
+                  size: 45,
+                ),
+              ),
+              Text(
+                NamaInput,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.nunitoSans(),
+              )
+            ],
           ),
         ),
-        Text(
-          NamaInput,
-          textAlign: TextAlign.center,
-          style: GoogleFonts.nunitoSans(),
-        )
-      ],
-    ),
-  );
+      ));
 }

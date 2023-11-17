@@ -24,9 +24,12 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Column(
                     children: [
+                      SizedBox(
+                        height: 20,
+                      ),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -44,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       SlideImage(),
                       SizedBox(
-                        height: 20,
+                        height: 5,
                       ),
                     ],
                   ),
@@ -54,12 +57,9 @@ class _HomePageState extends State<HomePage> {
                   child: CategoryScroll(),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
                   child: Column(
                     children: [
-                      SizedBox(
-                        height: 30,
-                      ),
                       Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
