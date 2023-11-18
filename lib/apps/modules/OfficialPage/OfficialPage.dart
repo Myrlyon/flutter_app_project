@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/OfficialPage/widgets/OfficialSlideImage.dart';
 import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 
 class OfficialPage extends StatefulWidget {
@@ -17,22 +18,22 @@ class _OfficialPageState extends State<OfficialPage> {
         child: Container(
           child: Column(
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  Icon(Icons.location_on),
-                  Text("Sent to Kost Marlen Edzel Satriani")
-                ],
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(Icons.location_on),
+                    Text("Sent to Kost Marlen Edzel Satriani")
+                  ],
+                ),
               ),
-              SizedBox(
-                height: 10,
-              ),
+              OfficialSlideImage(),
               Container(
-                height: 150,
-                width: double.infinity,
+                margin: EdgeInsets.fromLTRB(0, 20, 100, 20),
                 color: Colors.red,
-                child: Text("data"),
+                height: 50,
               )
             ],
           ),
