@@ -19,10 +19,12 @@ class _UserMoneyDetailsState extends State<UserMoneyDetails> {
       child: Container(
         child: Row(
           children: [
-            UserMoneyItem(MainAxisAlignment.start, 6, "Rp0", '200 Coins'),
             UserMoneyItem(
-                MainAxisAlignment.center, 6, "Try for 1", 'Subscribe'),
-            UserMoneyItem(MainAxisAlignment.end, 6, "Marlen", 'Silver'),
+                MainAxisAlignment.start, 6, "Rp0", '200 Coins', Icons.money),
+            UserMoneyItem(MainAxisAlignment.center, 6, "Try for 1", 'Subscribe',
+                Icons.subscript_rounded),
+            UserMoneyItem(MainAxisAlignment.end, 6, "Marlen", 'Silver',
+                Icons.hexagon_rounded),
           ],
         ),
       ),
@@ -30,7 +32,8 @@ class _UserMoneyDetailsState extends State<UserMoneyDetails> {
   }
 }
 
-Widget UserMoneyItem(MainAlignment, double ItemRadius, ItemLabel1, ItemLabel2) {
+Widget UserMoneyItem(
+    MainAlignment, double ItemRadius, ItemLabel1, ItemLabel2, ItemIcon) {
   return Expanded(
     flex: 1, // Left-aligned
     child: Row(
@@ -44,7 +47,7 @@ Widget UserMoneyItem(MainAlignment, double ItemRadius, ItemLabel1, ItemLabel2) {
               child: Row(
                 children: [
                   Icon(
-                    Icons.monetization_on,
+                    ItemIcon,
                     size: 30,
                   ),
                   SizedBox(
