@@ -59,6 +59,7 @@ dev_dependencies:
 flutter:
 
   assets:
+    - assets/stickps4.jpg
     - assets/sepedagunung.jpg
     - assets/ikan.jpg
     - assets/ikan2.jpg

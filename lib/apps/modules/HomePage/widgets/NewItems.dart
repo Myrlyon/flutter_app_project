@@ -21,7 +21,7 @@ class _NewItemsState extends State<NewItems> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 250,
+      height: 269,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: itemModelList.length,

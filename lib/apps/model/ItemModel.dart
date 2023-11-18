@@ -41,7 +41,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
   ItemModel ItemModel4 = ItemModel(
       "Kaos Oversize Colourspace",
       "Fashion",
-      "colourspaceofficialstore",
+      "Space Official Store",
       "SIZE : M / L / XL IDR : 200000 COLOUR : White Material : Cotton Combed 24s - 180gsm - premium soft and handfeel Note : 1.Pengiriman setiap hari kerja Senin-Sabtu jam 5 sore , Orderan sebelum jam 3 siang akan diproses dihari yang sama. 2.Resi dapat dicek setelah dikirim oleh pihak ekspedisi. 3.Tidak bisa melakukan penukaran barang, karena produk sesuai deskripsi & size chart tersedia ( kecuali ada kesalahan pengiriman ) 4.Mohon isi Atas nama penerima & alamat / no tlp yang lengkap , apabila ada kesalahan sewaktu pengiriman , seller tidak bertanggung jawab.",
       88000,
       5,
@@ -66,7 +66,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/5/2/c72bbdd4-f3e0-43e1-b89e-659303e94efd.jpg");
 
   ItemModel ItemModel7 = ItemModel(
-      "Luke Skywalker Lightsaber FX Graflex Anakin Rey",
+      "Luke Skywalker Lightsaber",
       "Toy",
       "Jawa's Depot",
       "Luke Skywalker / Rey Graflex Lightsaber dari film Star Wars episode 7: The Force Awakens, Kondisi Baru, ready stock tinggal kirim selama masih ada di listing Tokopedia, High-end = sama dengan yg dijual di Korbanth US atau TSA UK. Sangat berbeda dengan replika buatan LGT/TXQ yang lebih murah. Beda kualitas material, akurasi detailnya, dan instalasinya, Hilt: 89 Sabers Soundboard: Proffieboard 2.2 neopixel Speaker: 24mm 8ohm 2W",
@@ -75,7 +75,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/30/bd233948-dc6c-4891-80af-7793047bd313.jpg");
 
   ItemModel ItemModel8 = ItemModel(
-      "Celana Pria Kain Stretch Empat Sisi Celana Panjang Pria Casual Elastis",
+      "Celana Pria Kain Stretch",
       "Fashion",
       "Disai888",
       "> Ukuran M: - Panjang celana: 86 cm - Lingkar pinggang: 67 cm - Lingkar panggul: 104 cm > ukuran L: - Panjang celana: 88 cm - Lingkar pinggang: 70 cm - Lingkar panggul: 108 cm > Ukuran XL: - Panjang celana: 90 cm- Lingkar pinggang: 73 cm - Lingkar panggul: 112 cm > Ukuran 2XL: - Panjang celana: 92 cm - Lingkar pinggang: 76 cm - Lingkar panggul: 116 cm > Ukuran 3XL: - Panjang celana: 94 cm - Lingkar pinggang: 79 cm - Lingkar panggul: 120 cm > Ukuran 4XL: - Panjang celana: 96 cm - Lingkar pinggang: 82 cm - Lingkar panggul: 124 cm",
@@ -84,7 +84,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/9/4/1d4c5e4a-79d5-4500-abf5-356e46413606.jpg");
 
   ItemModel ItemModel9 = ItemModel(
-      "EMOLINE Celana Chino Pria Men Long Pants",
+      "EMOLINE Celana Chino Pria",
       "Fashion",
       "EMOLINE",
       "Emoline - Celana Chino Panjang Karet Premium - Celana Panjang Pria Cotton Stretch Bahan : Katun Stretch Premium warna : Hitam, Abu, Coklat Milo, Broken White (Cream Putih) Model / Cutting : Slim Fit Ukuran : 29-38 Warna :  - Hitam  - Abu  - Cream INFO MODEL : TB 185CM , BB 76CM Pakai ukuran 31 Panjang Celana +/- 102 cm 2 Saku Bobok Belakang 2 Saku Samping Kiri dan Kanan",
@@ -93,7 +93,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/29/7ddcc96e-25b3-446d-8ff6-b811a05400da.jpg");
 
   ItemModel ItemModel10 = ItemModel(
-      "Nintendo Switch Lite – Dialga & Palkia Edition",
+      "Nintendo Switch Lite-Dialga & Palkia Edition",
       "Console",
       "PS Enterprise Official",
       "Nintendo Switch™ Lite – Dialga & Palkia Edition Sistem Nintendo SwitchTM Lite ini adalah yang pertama menampilkan bodi abu-abu metalik dengan tombol hitam. Bagian belakang menampilkan seni garis mencolok dari Legendary Pokémon Dialgia dan Palkia dari game PokémonTM Brilliant Diamond dan PokémonTM Shining Pearl dalam finishing berwarna perak dan emas.  Edisi Nintendo Switch Lite Dialga dan Palkia Termasuk: sistem Nintendo Switch Lite dan adaptor AC Nintendo Switch",
