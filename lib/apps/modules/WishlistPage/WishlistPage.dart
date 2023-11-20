@@ -69,60 +69,11 @@ class _WishlistPageState extends State<WishlistPage> {
                   ),
                 ],
               ),
-
               SizedBox(height: 20),
-              // Container(
-              //   decoration: BoxDecoration(
-              //     color: Colors.white,
-              //     borderRadius: BorderRadius.circular(10.0),
-              //     boxShadow: [
-              //       BoxShadow(
-              //         color: Colors.grey,
-              //         offset: Offset(0, 2),
-              //         blurRadius: 4,
-              //       ),
-              //     ],
-              //   ),
-              //   width: 1000,
-              //   height: 500,
-              //   padding: EdgeInsets.all(10),
-              //   child: Text(
-              //     "Rekomendasi untuk Anda",
-              //     style: TextStyle(
-              //       fontSize: 18,
-              //       fontWeight: FontWeight.bold,
-              //     ),
-              //   ),
-              // ),
             ],
           ),
         ),
       ),
-      // bottomNavigationBar: BottomNavigationBar(
-      //   currentIndex: _currentIndex,
-      //   type: BottomNavigationBarType.fixed,
-      //   selectedItemColor: Color.fromARGB(255, 255, 230, 0),
-      //   unselectedItemColor: Colors.black,
-      //   items: [
-      //     BottomNavigationBarItem(
-      //       icon: Icon(Icons.home),
-      //       label: 'Home',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Icon(Icons.store),
-      //       label: 'Official Store',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Icon(Icons.favorite),
-      //       label: 'Wishlist',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Icon(Icons.receipt),
-      //       label: 'Transaksi',
-      //     ),
-      //   ],
-      //   onTap: _onTabTapped,
-      // ),
     );
   }
 }
