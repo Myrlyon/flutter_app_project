@@ -18,7 +18,9 @@ class _TransactionPageState extends State<TransactionPage> {
     super.initState();
     _itemList = [];
     ItemModelMain(_itemList);
-    _currentItem = _itemList.isNotEmpty ? _itemList.first : ItemModel("", "", "", "", 0, 0, "");
+    _currentItem = _itemList.isNotEmpty
+        ? _itemList.first
+        : ItemModel("", "", "", "", 0, 0, "");
   }
 
   @override
@@ -31,198 +33,76 @@ class _TransactionPageState extends State<TransactionPage> {
       bottomNavigationBar: null,
       body: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.all(20),
-          child: Stack(
-            children: [
-              Container(
-                width: 480,
-                height: 260,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(10.0),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey,
-                      offset: Offset(0, 2),
-                      blurRadius: 4,
-                    ),
-                  ],
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  offset: Offset(2, 2),
+                  color: Color.fromARGB(255, 192, 192, 192),
+                  blurRadius: 3,
                 ),
-              ),
-              Positioned(
-                top: 10,
-                right: 15,
-                child: IconButton(
-                  icon: Icon(Icons.more_vert),
-                  onPressed: () {
-                    // Add your action here
-                  },
-                ),
-              ),
-              Positioned(
-                top: 10,
-                left: 20,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.black,
-                      size: 40,
-                    ),
-                    SizedBox(width: 8),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          _currentItem.name,
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontFamily: 'Nunito Sans',
-                            color: Colors.black,
-                          ),
-                        ),
-                        Text(
-                          '20 Agustus 2023',
-                          style: TextStyle(
-                            color: Color(0xFF6F6F6F),
-                            fontSize: 13,
-                            fontFamily: 'Nunito Sans',
-                            fontWeight: FontWeight.bold,
-                            height: 0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                margin: EdgeInsets.only(left: 20, top: 60),
-                width: 150,
-                height: 140,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: NetworkImage(_currentItem.image),
-                    fit: BoxFit.fill,
-                  ),
-                  borderRadius: BorderRadius.circular(8),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Color(0x3F000000),
-                      blurRadius: 4,
-                      offset: Offset(0, 4),
-                      spreadRadius: 0,
-                    ),
-                  ],
-                ),
-              ),
-              Positioned(
-                bottom: 10,
-                right: 20,
-                child: Container(
-                  width: 70,
-                  height: 30,
-                  child: Stack(
+              ],
+            ),
+            margin: EdgeInsets.all(20),
+            child: Container(
+              margin: EdgeInsets.all(10),
+              child: Column(
+                children: [
+                  Row(
                     children: [
-                      Positioned(
-                        child: Container(
-                          width: 70,
-                          height: 30,
-                          decoration: ShapeDecoration(
-                            color: Color(0xFFFFC800),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Belanja',
                           ),
-                        ),
-                      ),
-                      Positioned(
-                        left: 20,
-                        top: 6,
-                        child: Text(
-                          'Ulas',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontFamily: 'Nunito Sans',
-                            fontWeight: FontWeight.w700,
-                            height: 0,
-                          ),
-                        ),
-                      ),
+                          Text(
+                            '20 Agustus 2023',
+                          )
+                        ],
+                      )
                     ],
                   ),
-                ),
-              ),
-              Positioned(
-                bottom: 10,
-                right: 100, // Adjust the right value as needed
-                child: Container(
-                  width: 90,
-                  height: 30,
-                  child: Stack(
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
                     children: [
-                      Positioned(
-                        left: 0,
-                        top: 0,
-                        child: Container(
-                          width: 90,
-                          height: 30,
-                          decoration: ShapeDecoration(
-                            shape: RoundedRectangleBorder(
-                              side: BorderSide(width: 1, color: Color(0xFFFFC800)),
-                              borderRadius: BorderRadius.circular(5),
-                            ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Stick PS4',
                           ),
-                        ),
-                      ),
-                      Positioned(
-                        left: 20,
-                        top: 6,
-                        child: Text(
-                          'Beli Lagi',
-                          style: TextStyle(
-                            color: Color(0xFFFFC800),
-                            fontSize: 15,
-                            fontFamily: 'Nunito Sans',
-                            fontWeight: FontWeight.w700,
-                            height: 0,
-                          ),
-                        ),
-                      ),
+                          Text(
+                            '1 Barang',
+                          )
+                        ],
+                      )
                     ],
                   ),
-                ),
-              ),
-              Positioned(
-                top: 210,
-                left: 20,
-                child: Text(
-                  'Total Belanja',
-                  style: TextStyle(
-                    color: Color(0xFF6F6F6F),
-                    fontSize: 15,
-                    fontFamily: 'Nunito Sans',
-                    fontWeight: FontWeight.w400,
-                    height: 0,
+                  SizedBox(
+                    height: 10,
                   ),
-                ),
+                  Row(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Total Belanja',
+                          ),
+                          Text(
+                            'Rp. 300000',
+                          )
+                        ],
+                      )
+                    ],
+                  )
+                ],
               ),
-              Positioned(
-                top: 230,
-                left: 20,
-                child: Text(
-                  'Rp.${_currentItem.price}',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 17,
-                    fontFamily: 'Nunito Sans',
-                    fontWeight: FontWeight.w700,
-                    height: 0,
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
+            )),
       ),
     );
   }
