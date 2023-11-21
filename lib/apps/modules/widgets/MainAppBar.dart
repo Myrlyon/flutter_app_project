@@ -5,7 +5,6 @@ Widget MainAppBar(context) {
   return AppBar(
     title: const CupertinoSearchTextField(
       borderRadius: BorderRadius.all(Radius.circular(8)),
-      autofocus: true,
       prefixIcon: Icon(
         Icons.search,
         size: 18,

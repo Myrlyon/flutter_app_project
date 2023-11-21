@@ -78,10 +78,24 @@ class _NewItemsState extends State<NewItems> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(item.name, style: GoogleFonts.nunitoSans()),
-                          Text(item.seller,
+                          Text(
+                              item.name,
                               style: GoogleFonts.nunitoSans(
-                                  fontWeight: FontWeight.bold)),
+                              ),
+                          ),
+                          Text(
+                            '\$${item.price}',
+                            style: GoogleFonts.nunitoSans(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.blue,
+                            ),
+                          ),
+                          Text(
+                            item.seller,
+                            style: GoogleFonts.nunitoSans(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ],
                       ),
                     ),
