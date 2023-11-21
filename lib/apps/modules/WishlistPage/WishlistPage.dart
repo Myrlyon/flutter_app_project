@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/WishlistPage/Detail/DetailWishlistPage.dart';
+import 'package:flutter_app_project/apps/modules/WishlistPage/widgets/recomendedItems.dart';
 import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
@@ -70,6 +71,7 @@ class _WishlistPageState extends State<WishlistPage> {
                 ],
               ),
               SizedBox(height: 20),
+              recomendedItems()
             ],
           ),
         ),

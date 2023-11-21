@@ -61,8 +61,7 @@ class ItemDetail extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  ElevatedButton(onPressed: null, child: Text("data")),
-                  ElevatedButton(onPressed: null, child: Text("data")),
+                  ElevatedButton(onPressed: null, child: Text("Add to Cart")),
                 ],
               ),
             ],

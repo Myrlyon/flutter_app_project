@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_project/apps/modules/widgets/BottomNavbar.dart';
+import 'package:flutter_app_project/apps/modules/WelcomePage/WelcomePage.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       // Use GetMaterialApp instead of MaterialApp
-      home: BottomNavbar(),
+      home: WelcomePage(),
     );
   }
 }
