@@ -48,7 +48,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/900/hDjmkQ/2023/7/25/858e6933-c6a8-4c19-8a62-a4269bc3c14f.jpg");
 
   ItemModel ItemModel5 = ItemModel(
-      "Celana Chino Pria Celana Panjang ",
+      "Celana Chino Pria",
       "Fashion",
       "Eight NineTeen Official",
       "Bahan celana : KATUN TWILL (STRETCH/KARET/ELASTIS), Tersedia warna : Hitam, Dark Khaki, Cream, Abu Tua , Size Tersedia : 28,30,32,34,36,38,40,42 , Jika anda sedang mencari celana yang pas digunakan untuk berbagai acara, celana chino merupakan pilihan yang sangat tepat. Model celana chino yang sedang trend belakangan ini karena modelnya yang casual dan trendy, sehingga membuat celana chino cocok digunakan oleh semua golongan dan segala acara.",
@@ -57,7 +57,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/12/6/bf07c6d9-022b-48a8-ad9d-49c1f5cdf79f.jpg");
 
   ItemModel ItemModel6 = ItemModel(
-      "Hot Wheels Premium Fast & Furious 5 Car Packs",
+      "Hot Wheels Fast & Furious 5 Car",
       "Toy",
       "Hot Wheels Flagship",
       "Hot Wheels Premium Fast & Furious dengan isi 5 car Packs yang berkualitas dengan badan mobil yang terbuat dari bahan metal. Terdiri dari 5 mobil dengan model yang populer dan di kemas secara epik di dalam box yang elegan :a) '66 Chevy Novab) '65 Corvette Stingray Coupec) Hummer H1d) '61 Impalae) '69 Ford Mustanf Boss 302 Hot Wheels Premium Fast & Furious ini terbuat dari Thailand dengan roda dari karet dan bodi mobil dari bahan metal. Cocok sebagai hadiah untuk kolektor Hot Wheels di segala usia.",
@@ -72,7 +72,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "Luke Skywalker / Rey Graflex Lightsaber dari film Star Wars episode 7: The Force Awakens, Kondisi Baru, ready stock tinggal kirim selama masih ada di listing Tokopedia, High-end = sama dengan yg dijual di Korbanth US atau TSA UK. Sangat berbeda dengan replika buatan LGT/TXQ yang lebih murah. Beda kualitas material, akurasi detailnya, dan instalasinya, Hilt: 89 Sabers Soundboard: Proffieboard 2.2 neopixel Speaker: 24mm 8ohm 2W",
       7000000,
       5,
-      "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/30/bd233948-dc6c-4891-80af-7793047bd313.jpg");
+      "https://images.tokopedia.net/img/cache/250-square/VqbcmM/2023/7/18/ee8040f0-63c8-461e-9bf4-e371cbb575b6.jpg");
 
   ItemModel ItemModel8 = ItemModel(
       "Celana Pria Kain Stretch",
@@ -93,7 +93,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
       "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/29/7ddcc96e-25b3-446d-8ff6-b811a05400da.jpg");
 
   ItemModel ItemModel10 = ItemModel(
-      "Nintendo Switch Lite-Dialga & Palkia Edition",
+      "Nintendo Switch Lite-Dialga Edition",
       "Console",
       "PS Enterprise Official",
       "Nintendo Switch™ Lite – Dialga & Palkia Edition Sistem Nintendo SwitchTM Lite ini adalah yang pertama menampilkan bodi abu-abu metalik dengan tombol hitam. Bagian belakang menampilkan seni garis mencolok dari Legendary Pokémon Dialgia dan Palkia dari game PokémonTM Brilliant Diamond dan PokémonTM Shining Pearl dalam finishing berwarna perak dan emas.  Edisi Nintendo Switch Lite Dialga dan Palkia Termasuk: sistem Nintendo Switch Lite dan adaptor AC Nintendo Switch",
