@@ -19,7 +19,7 @@ class _OfficialPageState extends State<OfficialPage> {
           child: Column(
             children: [
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
