@@ -19,26 +19,46 @@ class DetailPage extends StatelessWidget {
         iconTheme: IconThemeData(color: Colors.black),
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: Image.network(
-                item.image,
-                height: 400,
-                width: double.infinity,
-                fit: BoxFit.cover,
+            Image.network(
+              item.image,
+              height: 400,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('${item.name}',
+                      style: TextStyle(fontSize: 16, color: Colors.black)),
+                  Text('Rp${item.price}',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w600)),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow,
+                        size: 20,
+                      ),
+                      Text('${item.rating}', style: TextStyle(fontSize: 18)),
+                    ],
+                  ),
+                  Text('${item.seller}', style: TextStyle(fontSize: 18)),
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Text('Description: ${item.description}',
+                      style: TextStyle(fontSize: 14)),
+                ],
               ),
             ),
-            SizedBox(height: 16),
-            Text('Name: ${item.name}', style: TextStyle(fontSize: 18)),
-            Text('Seller: ${item.seller}', style: TextStyle(fontSize: 18)),
-            Text('Description: ${item.description}',
-                style: TextStyle(fontSize: 18)),
-            Text('Price: ${item.price}', style: TextStyle(fontSize: 18)),
-            Text('Rating: ${item.rating}', style: TextStyle(fontSize: 18)),
           ],
         ),
       ),

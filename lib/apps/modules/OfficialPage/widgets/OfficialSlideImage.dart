@@ -12,9 +12,9 @@ class _OfficialSlideImageState extends State<OfficialSlideImage> {
   @override
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> imageList = [
-      {"id": 1, "image_path": 'assets/ikan.jpg'},
-      {"id": 2, "image_path": 'assets/ikan2.jpg'},
-      {"id": 3, "image_path": 'assets/ikan3.jpg'}
+      {"id": 1, "image_path": 'assets/productsshow.png'},
+      {"id": 2, "image_path": 'assets/productsshow2.png'},
+      {"id": 3, "image_path": 'assets/productsshow3.png'}
     ];
     final CarouselController carouselController = CarouselController();
     int currentIndex = 0;

@@ -11,16 +11,12 @@ class TransactionPage extends StatefulWidget {
 
 class _TransactionPageState extends State<TransactionPage> {
   late List<ItemModel> _itemList;
-  late ItemModel _currentItem;
 
   @override
   void initState() {
     super.initState();
     _itemList = [];
     ItemModelMain(_itemList);
-    _currentItem = _itemList.isNotEmpty
-        ? _itemList.first
-        : ItemModel("", "", "", "", 0, 0, "");
   }
 
   @override
@@ -51,6 +47,10 @@ class _TransactionPageState extends State<TransactionPage> {
                 children: [
                   Row(
                     children: [
+                      Icon(Icons.shopping_bag),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -69,6 +69,10 @@ class _TransactionPageState extends State<TransactionPage> {
                   ),
                   Row(
                     children: [
+                      Icon(Icons.money),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
