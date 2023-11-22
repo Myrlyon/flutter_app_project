@@ -58,20 +58,6 @@ class LoginPage extends StatelessWidget {
                 style: TextStyle(fontSize: 16),
               ),
             ),
-            SizedBox(height: 20),
-            GestureDetector(
-              onTap: () {
-                Get.toNamed('/register');
-              },
-              child: Text(
-                "Don't have an account? Register here.",
-                style: TextStyle(
-                  color: Colors.blue,
-                  fontSize: 14,
-                  decoration: TextDecoration.underline,
-                ),
-              ),
-            ),
           ],
         ),
       ),

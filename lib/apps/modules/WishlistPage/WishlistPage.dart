@@ -28,8 +28,9 @@ class _WishlistPageState extends State<WishlistPage> {
                   Get.to(DetailWishlistPage());
                 },
                 child: Container(
-                  width: 1000,
+                  width: 350,
                   height: 200,
+                  child: Image.asset("assets/fotowishlist.jpg"),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10.0),

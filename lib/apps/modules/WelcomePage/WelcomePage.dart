@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/LoginPage/LoginPage.dart';
+import 'package:flutter_app_project/apps/modules/widgets/BottomNavbar.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
 
@@ -26,7 +27,7 @@ class WelcomePage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 350,
+                    height: 300,
                   ),
                   Text(
                     "Discover a diverse world of shopping \n  options at our all-in-one General \n Marketplace.",

@@ -76,7 +76,7 @@ class _OfficialPageState extends State<OfficialPage> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        'Console',
+                        'BackPack',
                         style: GoogleFonts.nunitoSans(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,

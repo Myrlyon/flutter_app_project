@@ -88,7 +88,7 @@ class _FashionCategoryItemsState extends State<FashionCategoryItems> {
                             style: GoogleFonts.nunitoSans(),
                           ),
                           Text(
-                            '\$${item.price}',
+                            'Rp.${item.price}',
                             style: GoogleFonts.nunitoSans(
                               fontWeight: FontWeight.bold,
                               color: Colors.blue,
