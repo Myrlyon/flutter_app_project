@@ -71,6 +71,15 @@ class _WishlistPageState extends State<WishlistPage> {
                 ],
               ),
               SizedBox(height: 20),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Text('Description',
+                    style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                        fontWeight: FontWeight.w600)),
+              ),
+              SizedBox(height: 10),
               recomendedItems()
             ],
           ),
