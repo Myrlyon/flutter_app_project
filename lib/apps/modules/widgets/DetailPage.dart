@@ -54,8 +54,12 @@ class DetailPage extends StatelessWidget {
                   SizedBox(
                     height: 40,
                   ),
-                  Text('Description: ${item.description}',
-                      style: TextStyle(fontSize: 14)),
+                  Text('Description',
+                      style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w600)),
+                  Text('${item.description}', style: TextStyle(fontSize: 14)),
                 ],
               ),
             ),

@@ -121,7 +121,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
 
   ItemModel ItemModel13 = ItemModel(
       "HOOLIGANS Bag Gullit Black",
-      "BackPack",
+      "Backpack",
       "HOOLIGANS",
       "Daily Backpack Black ini menggunakan bahan D polyester dengan kompartemen yang luas, Style yang ramping dan minimalis pas untuk meringkas keperluan sekolah, ngampus atau traveling kamu. Bahan : Cordura Nylon Ukuran : Panjang = 30 Lebar = 10 Tinggi = 40 Materials : - D Polyester - Label bordir HLGN+ - Waterproof Zipper - Cover with quality zippers - 1 Kompartemen Utama ( slot laptop fit sampai dengan ukuran 15 Inch ) - 1 Kompartemen Saku depan dengan penutup retsleting - 2 Kompartemen saku samping kiri dan kanan ( botol minum dan sebagainya ) - Perbedaan Warna produk dengan display pada settingan layar monitor anda dapat terjadi.",
       99000,
@@ -130,7 +130,7 @@ void ItemModelMain(List<ItemModel> ItemShow) {
 
   ItemModel ItemModel14 = ItemModel(
       "Tas Ransel Backpack Pria Traveling",
-      "BackPack",
+      "Backpack",
       "Hikemore Jakarta",
       "Tas Ransel Hikemore Warden ✅Tas mempunyai 1 kompertement utama dengan penutup tas dan tali serut ✅Ada 1 kompartement dibagian depan tas tanpa zipper ✅Mempunyai 1 kompartement kecil dibagian atas penutup tas ✅Desain penutup tas dengan pengunci buckle ✅Ada slot laptop dengan busa, maksimal muat laptop 15 inch ✅Mempunyai slot Organizer ATK, power bank dsb ✅Terdapat Keychain untuk menggantung kunci di bagian dalam tas ✅Quick access menggunakan zipper dibagian belakang tas ✅Dua kantong samping, untuk menyimpan botol minum ✅Dilengkapi tali webbing dibagian samping dan dibagian bawah tas, bisa digunakan untuk menaruh tenda, matras, Dsb. ✅Menggunakan zipper YKK ✅Tas sudah include rain cover ✅Dimensi 44cm x 32cm x 18cm ✅Kapasitas 25 L ✅Bagian punggung dilapisi oleh busa tebal sehingga menambah kenyamanan saat dipakai ✅Logo Hikemore menggunakan sablon ✅Cocok Digunakan Untuk Berbagai Kegiatan Yang Membawa Banyak Barang, Seperti Untuk Traveling, Kerja, Sekolah, Dsb ✅Setiap Produk Hikemore Diproduksi Dengan Keunggulan Akan Durability, Fungsional, serta Fashionable ✅Original Produk",
       299000,

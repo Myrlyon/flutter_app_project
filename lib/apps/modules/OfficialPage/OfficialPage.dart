@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_project/apps/modules/HomePage/widgets/NewItems.dart';
+import 'package:flutter_app_project/apps/modules/OfficialPage/widgets/BackpackCategoryItems.dart';
+import 'package:flutter_app_project/apps/modules/OfficialPage/widgets/FashionCategoryItems.dart';
 import 'package:flutter_app_project/apps/modules/OfficialPage/widgets/OfficialSlideImage.dart';
 import 'package:flutter_app_project/apps/modules/widgets/MainAppBar.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -59,7 +61,7 @@ class _OfficialPageState extends State<OfficialPage> {
               SizedBox(
                 height: 6,
               ),
-              NewItems(),
+              FashionCategoryItems(),
               Container(
                 margin: EdgeInsets.symmetric(vertical: 20),
                 decoration: BoxDecoration(
@@ -87,7 +89,7 @@ class _OfficialPageState extends State<OfficialPage> {
               SizedBox(
                 height: 6,
               ),
-              NewItems(),
+              BackpackCategoryItems(),
             ],
           ),
         ),
