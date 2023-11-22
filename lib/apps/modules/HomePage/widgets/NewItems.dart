@@ -84,7 +84,7 @@ class _NewItemsState extends State<NewItems> {
                               ),
                           ),
                           Text(
-                            '\$${item.price}',
+                            'Rp.${item.price}',
                             style: GoogleFonts.nunitoSans(
                               fontWeight: FontWeight.bold,
                               color: Colors.blue,
