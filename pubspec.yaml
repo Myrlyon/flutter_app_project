@@ -66,6 +66,7 @@ flutter:
     - assets/ikan.jpg
     - assets/ikan2.jpg
     - assets/ikan3.jpg
+    - assets/foto_login.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
