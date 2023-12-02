@@ -30,7 +30,6 @@ class _WishlistPageState extends State<WishlistPage> {
                 child: Container(
                   width: 350,
                   height: 200,
-                  child: Image.asset("assets/fotowishlist.jpg"),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10.0),

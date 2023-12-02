@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_project/apps/modules/LoginPage/LoginPage.dart';
 import 'package:flutter_app_project/apps/modules/WelcomePage/WelcomePage.dart';
 import 'package:flutter_app_project/apps/modules/widgets/BottomNavbar.dart';
 import 'package:get/get.dart';
